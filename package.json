@@ -1,6 +1,6 @@
 {
   "name": "npynu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node SDK for UPYUN.",
   "main": "index.js",
   "scripts": {
