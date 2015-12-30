@@ -74,7 +74,7 @@ Error: {"msg":"bucket not exist","code":40100012,"id":"0f12e8fe6b1f213967018fd3e
 * [`downloadFile`](#downloadFile)
 * [`removeFile`](#removeFile)
 
-<a name="getUsage" />
+<a name="getUsage"><a/>
 ### getUsage(callback)
 获取空间使用状况.(单位:`Byte`)
 
@@ -90,7 +90,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="listDir" />
+<a name="listDir"><a/>
 ### listDir(remotePath, [order], callback)
 遍历指定目录（只遍历当前层级目录，不循环遍历）。响应结果为 upyun 返回的原始数据，详见： http://docs.upyun.com/api/rest_api/#_13
 
@@ -113,7 +113,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="createDir" />
+<a name="createDir"><a/>
 ### createDir(remotePath, callback)
 创建文件夹。不抛出错误即为正常返回。
 
@@ -133,7 +133,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="removeDir" />
+<a name="removeDir"><a/>
 ### removeDir(remotePath, callback)
 删除文件夹。**注意：upyun 限定只能删除空目录，对于巨量数据来说删除一个目录设计到递归删除所有目录下的文件，很不方便。**
 
@@ -143,7 +143,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="uploadFile" />
+<a name="uploadFile"><a/>
 ### uploadFile(remotePath, localFile, [opts], callback)
 上传文件
 
@@ -169,7 +169,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="browseFile" />
+<a name="browseFile"><a/>
 ### browseFile(remotePath, callback)
 `HEAD` 获取文件详情
 
@@ -191,7 +191,7 @@ __响应__
 
 ---------------------------------------
 
-<a name="downloadFile" />
+<a name="downloadFile"><a/>
 ### downloadFile(remotePath, [localPath], callback)
 下载文件
 
@@ -202,7 +202,7 @@ __参数__
 
 ---------------------------------------
 
-<a name="removeFile" />
+<a name="removeFile"><a/>
 ### removeFile(remotePath, callback)
 删除文件
 
